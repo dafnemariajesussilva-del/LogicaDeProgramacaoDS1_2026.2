@@ -10,3 +10,7 @@ Crie um programa que:
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+valor_total_consumido = float(input("qual valor total:"))
+taxa_servico = valor_total_consumido * 0.10
+valor_final_conta = valor_total_consumido + taxa_servico
+print(f"o valor final da conta a pagar e: R$ {valor_final_conta}:.2f")
