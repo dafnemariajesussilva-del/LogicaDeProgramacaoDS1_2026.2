@@ -1,0 +1,6 @@
+#TODO: Implemente a expressão de validação
+media_aluno = 7.5
+frequencia_percentual = 80
+
+aprovado = media_aluno >=6.0 and frequencia_percentual >=75
+print("Status de aprovação:", aprovado)
