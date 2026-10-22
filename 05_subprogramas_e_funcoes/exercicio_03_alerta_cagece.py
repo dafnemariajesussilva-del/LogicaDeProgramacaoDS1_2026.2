@@ -9,3 +9,9 @@ que imprima a mensagem:
 """
 
 # TODO: Desenvolva o procedimento abaixo:
+def emitir_alerta_fatura(nome_cliente, valor, data_vencimento):
+        print(f"prezado(a) {nome_cliente}, sua fatura da Cagece no valor de R$ {valor:.2f} vence no dia {data_vencimento}.")
+nome_cliente = input("Digite seu nome: ")
+valor = float(input("digite o valor: "))
+data_vencimento = input("digite data de vencimento: ")
+emitir_alerta_fatura (nome_cliente, valor, data_vencimento)                                 
